@@ -9,7 +9,7 @@ export default function TeacherLayout({ children }: { children: React.ReactNode 
   const pathname = usePathname();
 
   const navItems = [
-    { href: '/teacher/dashboard', label: 'Dashboard', icon: LayoutDashboard },
+    { href: '/teacher/dashboard', label: 'Tableau de bord', icon: LayoutDashboard },
     { href: '/teacher/timetable', label: 'Emploi du temps', icon: Clock },
     { href: '/teacher/classes', label: 'Classes', icon: BookOpen },
     { href: '/teacher/grades', label: 'Notes', icon: FileText },

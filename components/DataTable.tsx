@@ -34,11 +34,11 @@ export function DataTable<T extends { id: number | string }>({
     isLoading
 }: DataTableProps<T>) {
     if (isLoading) {
-        return <div className="p-4 text-center">Loading...</div>;
+        return <div className="p-4 text-center">Chargement...</div>;
     }
 
     if (!data?.length) {
-        return <div className="p-4 text-center text-gray-500">No data found</div>;
+        return <div className="p-4 text-center text-gray-500">Aucune donnée trouvée</div>;
     }
 
     return (
